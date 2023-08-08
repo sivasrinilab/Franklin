@@ -19,6 +19,8 @@ main .hero h1 {
   margin-left: 10px;
   margin-right: auto;
   color: black;
+  justify-content: center;
+    display: flex;
 }
 
 main .hero picture {
