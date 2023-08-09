@@ -29,3 +29,28 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards > ul > li img:hover {
+  opacity: 0.60;
+}
+
+.cards p {
+  font-size: 18px;
+}
+
+.cards strong {
+  font-size: 24px;
+}
+
+.cards em {
+  color: #746e6e;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.cards a.button {
+  background-color: #000;
+    border: none;
+    border-radius: 0;
+    font-weight: normal;
+}
