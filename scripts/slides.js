@@ -10,7 +10,7 @@ $(document).ready(function(){
        autoplay: true,
   autoplaySpeed: 2000,    
   fade: true,
-  cssEase: 'linear'
+   slidesToShow: 3
                 
   });
 $('.slides').slickPlay();
