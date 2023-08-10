@@ -133,3 +133,10 @@ async function loadPage() {
 }
 
 loadPage();
+//Slider.js
+
+$(document).ready(function(){
+
+  $('.slides').slick();
+
+});
