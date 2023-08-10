@@ -7,7 +7,10 @@ $(document).ready(function(){
   centerPadding: '60px',
   slidesToShow: 3,
   centerMode: true,
-  variableWidth: true
+  variableWidth: false,
+       autoplay: true,
+  autoplaySpeed: 2000,               
+                
   });
 $('.slides').slickPlay();
 
