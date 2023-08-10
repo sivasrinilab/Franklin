@@ -5,7 +5,6 @@ $(document).ready(function(){
   infinite: true,
   speed: 300,
   centerPadding: '60px',
-  slidesToShow: 3,
   centerMode: true,
   variableWidth: false,
        autoplay: true,
