@@ -9,7 +9,9 @@ $(document).ready(function(){
   centerMode: true,
   variableWidth: false,
        autoplay: true,
-  autoplaySpeed: 2000,               
+  autoplaySpeed: 2000,    
+  fade: true,
+  cssEase: 'linear'
                 
   });
 $('.slides').slickPlay();
