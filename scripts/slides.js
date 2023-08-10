@@ -4,7 +4,8 @@ $(document).ready(function(){
   $('.slides').slick({dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 1,
+  centerPadding: '60px',
+  slidesToShow: 3,
   centerMode: true,
   variableWidth: true
   });
