@@ -5,6 +5,7 @@ import { sampleRUM } from './lib-franklin.js';
 sampleRUM('cwv');
 
 // add more delayed functionality here
+
 // Slideshow
 var slideIndex = 1;
 showDivs(slideIndex);
