@@ -1,7 +1,7 @@
 function decorateVideoBlock($block, videoURL) {
   if (videoURL.endsWith('.mp4')) {
     let attrs = '';
-    attrs = 'playsinline controls';
+    attrs = 'playsinline controls autoplay ';
     if ($block.classList.contains('autoplay')) attrs = 'playsinline controls muted autoplay loop';
     $block.innerHTML = /* html */`
       <div class="vid-wrapper">
