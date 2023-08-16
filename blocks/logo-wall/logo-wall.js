@@ -17,7 +17,7 @@ const animationConfig = {
 
 export default function decorate(block) {
   block.classList.add('contained');
-
+alert('hi')
   const logoWallList = document.createElement('ul');
   logoWallList.setAttribute('class', 'logo-wall-list');
 
