@@ -21,7 +21,14 @@ main .hero h1 {
   margin: 0 auto;
   color: white;
   left:17%;
-  font-size: 20px;
+  //font-size: 20px;
+  background-color: transparent;
+  color: #2c2c2c;
+  display: block;
+  font-size: .875rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: .0625rem;
 }
 
 @media (min-width: 600px) {
