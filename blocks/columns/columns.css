@@ -33,6 +33,9 @@ display: flex;
     background-color: #D5EAFF;
     color: #0a41c5;
     white-space: nowrap;
+  font-size: 0.875rem;
+    letter-spacing: 0;
+    line-height: 1.3125rem;
 }
 @media (min-width: 900px) {
   .columns > div {
