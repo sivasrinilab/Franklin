@@ -56,6 +56,17 @@ header nav p {
 
 header nav a:any-link {
   color: currentcolor;
+  background-color: transparent;
+    border: 0;
+    color: #2c2c2c;
+    display: block;
+    font-size: .875rem;
+    margin: 0;
+    outline-offset: -0.125rem;
+    padding: 1rem 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
 }
 
 /* hamburger */
