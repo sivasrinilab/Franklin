@@ -1,4 +1,5 @@
 
+
 export default function init(el) {
 
 	const titles = el.querySelectorAll(':scope > div:nth-child(odd)');
