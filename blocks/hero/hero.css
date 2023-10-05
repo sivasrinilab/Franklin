@@ -1,55 +1,183 @@
 /* block specific CSS goes here */
 
 main .hero-container > div {
-  max-width: unset;
+    max-width: unset;
 }
-  
+    
 main .hero-container {
-  padding: 0;
+    padding: 0;
 }
-  
+    
 main .hero {
-  position: relative;
-  /* padding: 32px; */
-  /* min-height: 300px; */
+    position: relative;
 }
 
 main .hero h1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto;
-  color: white;
-  left:17%;
-  //font-size: 20px;
-  background-color: transparent;
-  color: #2c2c2c;
-  display: block;
-  font-size: .875rem;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: .0625rem;
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-@media (min-width: 600px) {
-  main .hero h1 {
-    font-size: 48px;
-  }
+    
+main .hero picture {
+    position: relative;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
 }
-
-/* main .hero picture {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-} */
-
+  
 main .hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    main .hero img {
+        min-height: 400px !important;
+    }
+}
+
+body > main > div.section.hero-container > div > div > div > div {
+    position: relative;
+}
+
+@media screen and (min-width: 992px) {
+    body > main > div.section.hero-container > div > div > div > div > div.section::after{
+        content: "";
+        width: 50%;
+        height: 100px;
+    }
+}
+  
+body > main > div.section.hero-container > div > div > div > div > div.section {
+    display: flex !important;
+    position: relative;
+    top: 0;
+    width: 90%;
+    padding: 0;
+    margin: -50px auto 0;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(0,0,0,.05), 0 0.2rem 0.8rem 0.3rem rgba(0,0,0,.03), 0 0.2rem 1.6rem 0.6rem rgba(0,0,0,.05);
+}
+
+@media screen and (min-width: 992px) {
+    body > main > div.section.hero-container > div > div > div > div > div.section {
+        position: absolute !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 100% !important;
+        padding: 40px 0 48px !important;
+        flex-direction: row;
+        justify-content: flex-start;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 1200px;
+    }
+
+    body > main > div.section.hero-container > div > div > div > div > div > div {
+        width: 448px;
+    }
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div {
+    background-color: #fff;
+    color: #000;
+    padding: 24px;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(2) {
+    margin: 0;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(3) {
+    margin: 0 0 12px;
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 35px;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(4) {
+    font-family: HelveticaNeueLTW04-55Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 0 0 24px;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) {
+    column-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    row-gap: 0;
+}
+
+@media screen and (min-width: 768px) {
+    body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) {
+        flex-direction: row !important;
+    }
+}
+
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) > a:nth-child(1) {
+    background-color: #0a41cf;
+    border: 0.0625rem solid #0a41cf;
+    color: #f7f7fa;
+    cursor: pointer;
+    max-width: unset;
+    height: auto;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    outline-offset: 0.25rem;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    align-self: flex-start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: -webkit-fill-available;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) > a:nth-child(1):hover {
+    background: linear-gradient(-180deg,#0a41cf 0,#0c2074 100%);
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) > a:nth-child(1):active {
+    background-color: #0c2074;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) > a:nth-child(2){
+    text-decoration: underline;
+    cursor: unset !important;
+    align-self: flex-start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: 0.125rem solid transparent;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    position: relative;
+    outline: transparent solid 0.125rem;
+    outline-offset: 0.25rem;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    color: #0a41c5;
+    width: -webkit-fill-available;
+}
+
+body > main > div.section.hero-container > div > div > div > div > div > div > p:nth-child(5) > a:nth-child(2):hover {
+    text-decoration: none;
 }
