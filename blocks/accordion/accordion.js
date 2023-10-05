@@ -36,7 +36,7 @@ export default function init(el) {
 
 			} else {
 
-				$(this).removeClass("open");
+				event.target.removeClass("open");
 
 			}
 
