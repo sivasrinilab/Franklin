@@ -267,7 +267,7 @@ body > main > div:nth-child(10) > div > p {
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-body > main > div:nth-child(10) > div > p:nth-child(1) {
+body > main > div.section:last-child > div > p:nth-child(1) {
 	margin: 0 0 2rem;
     line-height: 1.5;
     font-weight: 600;
