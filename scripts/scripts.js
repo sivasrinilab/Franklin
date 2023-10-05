@@ -143,7 +143,7 @@ loadPage();
 //Slider.js
 
 $(document).ready(function(){
-[20:52] A, Greefin (Cognizant)
+
 
 // Get all <li> elements within the <ol>
 
