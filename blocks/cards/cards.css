@@ -1,16 +1,16 @@
-body > main > div:nth-child(7) {
+body > main > div:nth-child(6) {
   padding: 80px 0px;
   max-width: 70rem;
   margin: 0 auto;
 }
-body > main > div:nth-child(7) > div > div > ul {
+body > main > div:nth-child(6) > div > div > ul {
   grid-template-columns: auto;
 }
-body > main > div:nth-child(7) > div > div > ul > li {
+body > main > div:nth-child(6) > div > div > ul > li {
   display: flex;
   flex-wrap: wrap;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body {
   width: 340px;
 }
 #power-your-business-purchases {
@@ -29,10 +29,10 @@ body > main > div:nth-child(7) > div > div > ul > li .cards-card-body {
   font-weight: 600;
   margin-bottom: 12px;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body:first-child p.button-container a {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body:first-child p.button-container a {
   margin: 0;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body p:nth-child(1) {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body p:nth-child(1) {
   font-family: HelveticaNeueLTW06-75Bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -49,19 +49,19 @@ body > main > div:nth-child(7) > div > div > ul > li .cards-card-body p:nth-chil
   font-weight: 600;
   margin-bottom: 12px;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body p:nth-child(3) {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body p:nth-child(3) {
   font-family: HelveticaNeueLTW04-55Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #2c2c2c;
   margin-bottom: 32px;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container {
   margin-bottom: 12px;
   margin-top: 0;
   position: relative;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container a {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container a {
   font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -71,7 +71,7 @@ body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-co
   text-decoration: none;
   padding: 0;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container a::after {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container a::after {
   width: 6px;
   height: 6px;
   border-bottom: 2px solid #0a41c5;
@@ -84,40 +84,40 @@ body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-co
   top: 26px;
   margin-left: 10px;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body:nth-child(1) .button-container a::after {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body:nth-child(1) .button-container a::after {
   top: 12px;
 }
-body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container a:hover {
+body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container a:hover {
   text-decoration: underline;
 }
 @media (max-width: 768px) {
-  body > main > div:nth-child(7) > div > div > ul > li .cards-card-body {
+  body > main > div:nth-child(6) > div > div > ul > li .cards-card-body {
     width: 320px !important;
   }
-  body > main > div:nth-child(7) {
+  body > main > div:nth-child(6) {
     padding: 64px 18px;
   }
 }
 @media (max-width: 480px) {
-  body > main > div:nth-child(7) {
+  body > main > div:nth-child(6) {
     padding: 48px 4px;
   }
-  body > main > div:nth-child(7) > div > div > ul > li .cards-card-body {
+  body > main > div:nth-child(6) > div > div > ul > li .cards-card-body {
     width: 100%;
     margin-bottom: 38px;
   }
-  body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container a {
+  body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container a {
     margin: 0;
   }
-  body > main > div:nth-child(7) > div > div > ul > li .cards-card-body .button-container a::after {
+  body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-container a::after {
     top: 12px;
   }
 }
 @media (max-width: 992px){
-  body > main > div:nth-child(7) {
+  body > main > div:nth-child(6) {
    padding: 64px 18px;
  }
- body > main > div:nth-child(7) > div > div > ul > li .cards-card-body {
+ body > main > div:nth-child(6) > div > div > ul > li .cards-card-body {
    width: 360px;
  }
 }
