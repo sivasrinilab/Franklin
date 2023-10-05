@@ -1,15 +1,53 @@
 footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
-  text-align: center;
-}
+    padding: 2rem;
+    text-align: center;
+    background-color: #0c2074;
+      color: #fff;
+      font-size: 1rem;
+      width: 100%;
+  }
+  
+  footer .footer {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 2rem;
+    text-align:left;
+  }
+  
+  footer .footer p {
+    margin: 0;
+  }
 
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
-}
-
-footer .footer p {
-  margin: 0;
-}
+  footer .footer a {
+    color: #fff;
+  }
+  
+  footer .footer .columns > div > div:first-child, footer .footer .columns > div > div:nth-child(2){
+    line-height:40px;
+    min-height:160px;
+    
+  }
+  
+  footer .footer .columns > div > div:nth-child(3), footer .footer .columns > div > div:last-child{
+    min-height:160px;
+  }
+  footer .footer .columns > div > div:last-child{
+    position:relative;
+  }
+  
+  footer .footer .columns > div > div:nth-child(3) p:first-child, footer .footer .columns > div > div:last-child p:first-child{
+    margin-top:5px;
+  }
+  
+  footer .footer .columns > div > div:nth-child(3) p{
+    margin-bottom: 14px;
+    
+  }
+  footer .footer .columns > div > div:last-child p:last-child{
+    position:absolute;
+    bottom:0;
+  }
+  footer > .footer > div > div > p{
+    margin-top:20px;
+    }
+  
