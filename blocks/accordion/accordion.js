@@ -42,7 +42,7 @@ export default function init(el) {
 
 			//$(this).toggleClass("open");
 
-			$(this).next(".item-content").css("display", function(_, value) {
+			$(event.target.closest('.item-content')).css("display", function(_, value) {
 
 				return value === "none" ? "block" : "none";
 
