@@ -24,7 +24,7 @@ export default function init(el) {
 
 		title.addEventListener('click', () => {
 
-			title.classList.toggle('open');
+			//title.classList.toggle('open');
 
 			var isOpen = $(this).hasClass("open");
 
