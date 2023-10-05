@@ -251,18 +251,18 @@ main .section.highlight {
 }
 
 /* Disclosure */
-body > main > div:nth-child(10) > div > ol > li {
+body > main > div.section:last-child > div > ol > li {
 	font-size: .875rem;
     padding: 0 0 0 0.75rem;
     margin: 0 0 2rem;
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-body > main > div:nth-child(10) {
+body > main > div.section:last-child {
 	background-color: #f7f7fa;
 }
 
-body > main > div:nth-child(10) > div > p {
+body > main > div.section:last-child > div > p {
 	font-size: .875rem;
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
