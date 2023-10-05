@@ -31,12 +31,12 @@ export default function init(el) {
 			$(".accordion-wrapper .item-title").removeClass("open");
 
 			if (!isOpen) {
-				$(this).addClass("open");
+				title.addClass("open");
 				
 
 			} else {
 
-				$(this).removeClass("open");
+				title.removeClass("open");
 
 			}
 
