@@ -1,45 +1,140 @@
-.accordion {
-    background: #EFEFEF;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+#what-credit-score-is-needed-to-apply-for-a-us-bank-credit-card > strong,
+#how-does-a-credit-card-work > strong ,
+#what-is-a-good-credit-score  > strong ,
+#how-can-i-improve-my-credit-score > strong,
+#what-us-bank-credit-cards-are-best-for-maximizing-rewards > strong {
+ font-weight: 400;
+}
+#frequently-asked-questions {
+   font-size: 24px;
+   padding-bottom: 12px;
+   font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: 400;
 }
 
-.item-title {
-    cursor: pointer;
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+body > main > div.section.accordion-container > div:nth-child(2) > div,
+body > main > div.section.accordion-container > div:nth-child(3) > div,
+body > main > div.section.accordion-container > div:nth-child(4) > div,
+body > main > div.section.accordion-container > div:nth-child(5) > div,
+body > main > div.section.accordion-container > div:nth-child(6) > div {
+    width: 60%;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title.open,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-title.open,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title.open,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title.open,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title.open {
+  border: 2px solid #136ff6;
+  background: #ffffff;
+}
+
+#what-credit-score-is-needed-to-apply-for-a-us-bank-credit-card > strong:hover,
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title.open h1 strong
+{
+ color: #0a41c5;
+}
+
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-title,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row-reverse;
+    padding: 8px;
+	justify-content: start;
 }
 
-.item-title::after {
-    width: 10px;
-    height: 10px;
-    border-bottom: 2px solid #a7a7a7;
-    border-right: 2px solid #a7a7a7;
-    transform-origin: 75% 75%;
-    transform: rotate(-45deg) translateY(-50%);
-    transition: transform .1s ease;
-    content: '';
+
+#what-credit-score-is-needed-to-apply-for-a-us-bank-credit-card {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
 }
 
-.item-title.open {
-    background: #ddd;
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title.open::after,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-title.open::after,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title.open::after,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title.open::after,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title.open::after {
+   transform: rotate(44deg) translateX(0%);
+   border-color: #0a41c5;
+   /* padding-right: 20px; */
 }
 
-.item-title.open::after {
-    transform: rotate(-135deg) translateX(50%);
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-content,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-content,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-content,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-content,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-content {
+    font-size: 16px;
+    padding-left: 35px;
+    padding-top: unset;
+    padding-bottom: 21px;
 }
 
-.item-content {
-    display: none;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+
+#how-does-a-credit-card-work > strong:hover,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-title.open h1 strong {
+ color: #0a41c5;
+}
+#what-is-a-good-credit-score > strong:hover,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title.open h1 strong {
+ color: #0a41c5;
+}
+#how-can-i-improve-my-credit-score > strong:hover,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title.open h1 strong {
+ color: #0a41c5;
+}
+#what-us-bank-credit-cards-are-best-for-maximizing-rewards > strong:hover,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title.open h1 strong  {
+ color: #0a41c5;
 }
 
-.item-title.open + .item-content {
-    display: block;
+#how-does-a-credit-card-work {
+    font-size: 16px;
+    padding-left: 20px;
+}
+#what-is-a-good-credit-score {
+    font-size: 16px;
+    padding-left: 20px;
+}
+#how-can-i-improve-my-credit-score {
+    font-size: 16px;
+    padding-left: 20px;
+}
+#what-us-bank-credit-cards-are-best-for-maximizing-rewards {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title h1,
+body > main > div.section.accordion-container > div:nth-child(3) > div > div.item-title h1,
+body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title h1,
+body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title h1,
+body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title h1 {
+ font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-weight: 400;
+}
+
+
+@media only screen and (min-width: 1250px) {
+body > main > div.section.accordion-container  {
+margin-left: 140px;
+}
+}
+
+@media only screen and (min-width: 900px) {
+body > main > div.section.accordion-container  {
+margin-left: 60px;
+}
+}
+
+@media only screen and (max-width: 1055px) {
+body > main > div.section.accordion-container > div:nth-child(2) > div, body > main > div.section.accordion-container > div:nth-child(3) > div, body > main > div.section.accordion-container > div:nth-child(4) > div, body > main > div.section.accordion-container > div:nth-child(5) > div, body > main > div.section.accordion-container > div:nth-child(6) > div {
+width: unset;
+}
 }
