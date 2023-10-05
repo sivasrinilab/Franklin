@@ -22,7 +22,7 @@ export default function init(el) {
 
 		$(".accordion-wrapper .item-content:not(:first)").css("display", "none");
 
-		title.addEventListener('click', () => {
+		title.addEventListener('click', (event) => {
 
 			//title.classList.toggle('open');
 
