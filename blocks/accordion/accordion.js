@@ -31,7 +31,7 @@ export default function init(el) {
 			$(".accordion-wrapper .item-title").removeClass("open");
 
 			if (!isOpen) {
-				$(this).addClass("open");
+				event.target.addClass("open");
 				
 
 			} else {
