@@ -249,3 +249,28 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+/* Disclosure */
+body > main > div:nth-child(10) > div > ol > li {
+	font-size: .875rem;
+    padding: 0 0 0 0.75rem;
+    margin: 0 0 2rem;
+	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body > main > div:nth-child(10) {
+	background-color: #f7f7fa;
+}
+
+body > main > div:nth-child(10) > div > p {
+	font-size: .875rem;
+	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body > main > div:nth-child(10) > div > p:nth-child(1) {
+	margin: 0 0 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+	font-size: 1rem;
+	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
