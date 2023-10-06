@@ -34,4 +34,11 @@ if (strongTag) {
     }
 }
 
+var cards=document.querySelectorAll(".section.cards-container")
+if(cards){
+    cards[0].classList.add("card-details")
+    cards[1].classList.add("card-details")
+}
+
+
 }
