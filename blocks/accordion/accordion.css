@@ -44,14 +44,18 @@
   display: block;
 }
 
+body > main > div.section.accordion-container {
+background-color: #f7f7fa;
+}
+
 body > main > div.section.accordion-container > div:nth-child(2) > div,
 body > main > div.section.accordion-container > div:nth-child(3) > div,
 body > main > div.section.accordion-container > div:nth-child(4) > div,
 body > main > div.section.accordion-container > div:nth-child(5) > div,
 body > main > div.section.accordion-container > div:nth-child(6) > div {
     width: 60%;
-    background: #fff;
-    border: 1px solid #fff;
+    background: #f7f7fa;
+    border: 1px solid #f7f7fa;
 }
 
 body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title.open,
@@ -60,7 +64,8 @@ body > main > div.section.accordion-container > div:nth-child(4) > div > div.ite
 body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title.open,
 body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title.open {
   border: 2px solid #136ff6;
-  background: #ffffff;
+  background: #f7f7fa;
+  border-radius: 6px;
 }
 #what-credit-score-is-needed-to-apply-for-a-us-bank-credit-card > strong,
 #how-does-a-credit-card-work > strong ,
@@ -89,8 +94,8 @@ body > main > div.section.accordion-container > div:nth-child(5) > div > div.ite
 body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title {
     display: flex;
     flex-direction: row-reverse;
-    padding: 8px;
-	justify-content: start;
+    padding: 8px 8px 8px 8px;
+    justify-content: start;
 }
 
 
@@ -98,6 +103,7 @@ body > main > div.section.accordion-container > div:nth-child(6) > div > div.ite
     font-size: 16px;
     font-weight: 400;
     padding-left: 20px;
+    margin: 0;
 }
 
 body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title.open::after,
@@ -105,9 +111,8 @@ body > main > div.section.accordion-container > div:nth-child(3) > div > div.ite
 body > main > div.section.accordion-container > div:nth-child(4) > div > div.item-title.open::after,
 body > main > div.section.accordion-container > div:nth-child(5) > div > div.item-title.open::after,
 body > main > div.section.accordion-container > div:nth-child(6) > div > div.item-title.open::after {
-   transform: rotate(44deg) translateX(0%);
+   transform: rotate(44deg);
    border-color: #0a41c5;
-   /* padding-right: 20px; */
 }
 
 body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-content,
@@ -141,19 +146,23 @@ body > main > div.section.accordion-container > div:nth-child(6) > div > div.ite
 
 #how-does-a-credit-card-work {
     font-size: 16px;
+    margin: 0;
     padding-left: 20px;
 }
 #what-is-a-good-credit-score {
     font-size: 16px;
     padding-left: 20px;
+    margin: 0;
 }
 #how-can-i-improve-my-credit-score {
     font-size: 16px;
+    margin: 0;
     padding-left: 20px;
 }
 #what-us-bank-credit-cards-are-best-for-maximizing-rewards {
     font-size: 16px;
     padding-left: 20px;
+    margin: 0;
 }
 
 body > main > div.section.accordion-container > div:nth-child(2) > div > div.item-title h1,
@@ -165,16 +174,23 @@ body > main > div.section.accordion-container > div:nth-child(6) > div > div.ite
  font-weight: 400;
 }
 
+body > main > div.section.accordion-container > div:nth-child(2),
+body > main > div.section.accordion-container > div:nth-child(3),
+body > main > div.section.accordion-container > div:nth-child(4),
+body > main > div.section.accordion-container > div:nth-child(5),
+body > main > div.section.accordion-container > div:nth-child(6) {
+ padding: 8px;
+}
 
 @media only screen and (min-width: 1250px) {
 body > main > div.section.accordion-container  {
-margin-left: 140px;
+padding-left: 140px;
 }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1248px) {
 body > main > div.section.accordion-container  {
-margin-left: 60px;
+padding-left: 60px;
 }
 }
 
@@ -183,3 +199,4 @@ body > main > div.section.accordion-container > div:nth-child(2) > div, body > m
 width: unset;
 }
 }
+
