@@ -1,4 +1,4 @@
-accordion {
+.accordion {
   background: #efefef;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -212,3 +212,4 @@ body > main > div.section.accordion-container > div:nth-child(2) > div, body > m
 width: unset;
 }
 }
+
