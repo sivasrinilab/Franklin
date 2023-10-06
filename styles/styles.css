@@ -251,10 +251,28 @@ main .section.highlight {
 }
 
 /* Disclosure */
+body > main > div.section:last-child > div {
+    margin: auto;
+    max-width: 70rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+}
+
+@media only screen and (max-width: 1055px) {
+	body > main > div.section:last-child > div {
+		grid-template-columns: repeat(1,minmax(0,1fr));
+	}
+}
+
+body > main > div.section:last-child > div > ol {
+	grid-column: auto/span 8;
+}
+
 body > main > div.section:last-child > div > ol > li {
 	font-size: .875rem;
-    padding: 0 0 0 0.75rem;
-    margin: 0 0 2rem;
+	padding: 0 0 0 0.75rem;
+	margin: 0 0 2rem;
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -264,13 +282,15 @@ body > main > div.section:last-child {
 
 body > main > div.section:last-child > div > p {
 	font-size: .875rem;
+	grid-column: auto/span 8;
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body > main > div.section:last-child > div > p:nth-child(1) {
 	margin: 0 0 2rem;
-    line-height: 1.5;
-    font-weight: 600;
+	grid-column: auto/span 8;
+	line-height: 1.5;
+	font-weight: 600;
 	font-size: 1rem;
 	font-family: HelveticaNeueLTW06-65Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
