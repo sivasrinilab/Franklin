@@ -15,4 +15,16 @@ export default function decorate(block) {
       }
     });
   });
+
+  var filerbtn = document.querySelectorAll(".columns.block .button-container a.button");
+    filerbtn.forEach(singleTag=>{
+        singleTag.addEventListener('click', event=>{
+            event.preventDefault();
+            filerbtn.forEach(singleItem=>{
+                singleItem.classList.remove('active');
+            });
+            singleTag.classList.add("active");
+        }
+        )
+    });
 }
