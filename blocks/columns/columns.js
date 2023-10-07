@@ -24,6 +24,14 @@ export default function decorate(block) {
                 singleItem.classList.remove('active');
             });
             singleTag.classList.add("active");
+          var text = singleTag.text;
+          switch(text){
+            case "All credit cards":
+          $('.cards ul li').show();
+            case "Cash back":
+              $('.cards ul li').hide();
+          }
+          
         }
         )
     });
