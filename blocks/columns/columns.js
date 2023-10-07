@@ -31,7 +31,9 @@ export default function decorate(block) {
               break;
             case "Cash back":
               document.querySelectorAll('.cards ul li h4').forEach(txt=>{
-                txt.text
+                if(txt.textContent.search('cashback') != -1){
+                $(this).parent().hide();
+                }
               });
               break;
           }
