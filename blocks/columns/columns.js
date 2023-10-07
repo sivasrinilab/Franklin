@@ -32,7 +32,7 @@ export default function decorate(block) {
             case "Cash back":
               $('.cards ul li h4').forEach(txt=>{
                 txt.text
-              }
+              });
               break;
           }
           
