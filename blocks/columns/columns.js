@@ -33,7 +33,7 @@ export default function decorate(block) {
               $('.cards ul li').hide();
               document.querySelectorAll('.cards ul li h4').forEach(txt=>{
                 if(txt.textContent.search('cashback') != -1){
-               txt.parentNode.parentNode.show()
+               $(txt.parentNode.parentNode).show()
                 }
               });
               break;
