@@ -30,9 +30,10 @@ export default function decorate(block) {
           $('.cards ul li').show();
               break;
             case "Cash back":
+              document.querySelectorAll('.cards ul li').hide();
               document.querySelectorAll('.cards ul li h4').forEach(txt=>{
                 if(txt.textContent.search('cashback') != -1){
-                $(this).parent().hide();
+               txt.parentNode.parentNode.show()
                 }
               });
               break;
