@@ -28,8 +28,10 @@ export default function decorate(block) {
           switch(text){
             case "All credit cards":
           $('.cards ul li').show();
+              break;
             case "Cash back":
               $('.cards ul li').hide();
+              break;
           }
           
         }
