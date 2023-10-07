@@ -50,7 +50,7 @@ footer {
   footer > .footer > div > div > p{
     margin-top:20px;
     }
-footer > .footter > .columns:first-child > img{
+footer .footer .columns:first-child > div > div:first-child img{
 height: 3.5rem;
     width: 13rem;
 }
