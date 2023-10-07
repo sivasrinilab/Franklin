@@ -22,7 +22,7 @@ footer {
     color: #fff;
   }
   
-  footer .footer .columns > div > div:first-child, footer .footer .columns > div > div:nth-child(2){
+   footer .footer .columns > div > div:nth-child(2){
     line-height:40px;
     min-height:160px;
     
