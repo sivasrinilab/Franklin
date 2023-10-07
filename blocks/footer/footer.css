@@ -53,6 +53,7 @@ footer {
 footer .footer .columns:first-child > div > div:first-child img{
 height: 3.5rem;
     width: 13rem;
+    margin-top:-50px;
 }
 
   
