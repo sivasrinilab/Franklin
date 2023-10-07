@@ -22,13 +22,13 @@ footer {
     color: #fff;
   }
   
-  footer .footer .columns > div > div:first-child, footer .footer .columns > div > div:nth-child(2){
+  footer .footer .columns > div > div:first-child, footer .footer .columns:not(:first-child) > div > div:nth-child(2){
     line-height:40px;
     min-height:160px;
     
   }
   
-  footer .footer .columns > div > div:nth-child(3), footer .footer .columns > div > div:last-child{
+  footer .footer .columns > div > div:nth-child(3), footer .footer .columns:not(:first-child) > div > div:last-child{
     min-height:160px;
   }
   footer .footer .columns > div > div:last-child{
