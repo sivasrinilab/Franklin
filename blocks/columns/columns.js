@@ -37,6 +37,14 @@ export default function decorate(block) {
                 }
               });
               break;
+              case "Points":
+              $('.cards ul li').hide();
+              document.querySelectorAll('.cards ul li h4').forEach(txt=>{
+                if(txt.textContent.search('bonus points') != -1){
+               $(txt.parentNode.parentNode).show()
+                }
+              });
+              break;
           }
           
         }
