@@ -30,7 +30,7 @@ export default function decorate(block) {
           $('.cards ul li').show();
               break;
             case "Cash back":
-              $('.cards ul li h4').forEach(txt=>{
+              document.querySelectorAll('.cards ul li h4').forEach(txt=>{
                 txt.text
               });
               break;
