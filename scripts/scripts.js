@@ -146,24 +146,6 @@ $(document).ready(function(){
 
 	$('.slides').slick();
 
-	// Get all <li> elements within the <ol>
 
-const listItems = document.querySelectorAll('body > main > div:nth-child(9) > div > ol > li');
-
- 
-
-// Loop through the <li> elements
-
-listItems.forEach((item) => {
-
-  // Check if the text of the <li> contains "footnote" (case insensitive)
-
-  if (/\bfootnote\b/i.test(item.textContent)) {
-
-    item.style.display = 'none'; // Hide the <li> element
-
-  }
-
-})
 
 });
