@@ -147,7 +147,7 @@ $(document).ready(function(){
 
 // Get all <li> elements within the <ol>
 
-const listItems = document.querySelectorAll('body > main > div:nth-child(9) > div > ol > li');
+const listItems = document.querySelectorAll('body > main > div:nth-child(10) > div > ol > li');
 
  
 
