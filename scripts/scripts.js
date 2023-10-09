@@ -144,8 +144,9 @@ loadPage();
 
 $(document).ready(function(){
 
+	$('.slides').slick();
 
-// Get all <li> elements within the <ol>
+	// Get all <li> elements within the <ol>
 
 const listItems = document.querySelectorAll('body > main > div:nth-child(9) > div > ol > li');
 
@@ -164,6 +165,5 @@ listItems.forEach((item) => {
   }
 
 })
-	$('.slides').slick();
 
 });
