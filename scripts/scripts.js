@@ -144,7 +144,7 @@ loadPage();
 
 $(document).ready(function(){
 
-
+setTimeout(function{
 // Get all <li> elements within the <ol>
 
 const listItems = document.querySelectorAll('body > main > div:nth-child(9) > div > ol > li');
@@ -163,7 +163,7 @@ listItems.forEach((item) => {
 
   }
 
-});
+});},500);
 	$('.slides').slick();
 
 });
