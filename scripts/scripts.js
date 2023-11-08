@@ -143,7 +143,7 @@ loadPage();
 //Slider.js
 
 $(document).ready(function(){
-
+alert('hi')
 	$('.slides').slick();
 
 
