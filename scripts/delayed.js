@@ -5,13 +5,5 @@ import { sampleRUM } from './lib-franklin.js';
 sampleRUM('cwv');
 
 // add more delayed functionality here
-//Slider.js
 
-$(document).ready(function(){
-alert('hi')
-	$('.slides').slick();
-
-
-
-});
 
