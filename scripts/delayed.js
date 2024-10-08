@@ -5,5 +5,5 @@ import { sampleRUM } from './lib-franklin.js';
 sampleRUM('cwv');
 
 // add more delayed functionality here
-<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"/>
 <script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
