@@ -9,7 +9,7 @@ import {
   decorateBlocks,
   decorateTemplateAndTheme,
   waitForLCP,
-  loadBlocks,
+  loadBlock,
   loadCSS,
 } from './aem.js';
 
