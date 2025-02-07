@@ -121,7 +121,7 @@ body > main > div:nth-child(6) > div > div > ul > li .cards-card-body .button-co
    width: 360px;
  }
 }
-//Rama's code for Cards 
+/*Rama's code for Cards */
 .section.cards-container.card-details {
   padding-bottom: 0px;
   max-width: 70rem;
@@ -801,3 +801,65 @@ body > main > div:nth-child(8) > div.columns-wrapper > div > div div {
 .section.cards-container.card-details .cards-card-body img{
 max-width: 6.25rem;
 }
+
+/* THIS IS FOUR CARD LAYOUT KINDLY DON'T DISTURB */
+
+@media (min-width: 600px) {
+body .fourcards-container {
+  padding: 80px 71px;
+}
+}
+.fourcards-container [data-block-name="fourcards"] > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+.fourcards-container [data-block-name="fourcards"] > div > div {
+  height: 100%;
+  display: inline-grid;
+}
+.fourcards-container [data-block-name="fourcards"] > div div > p {
+  font-size: 14px;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  margin: 0px 0px 16px 0px;
+  color: rgb(102, 102, 106);
+  font-weight: 500;
+}
+.fourcards-container [data-block-name="fourcards"] h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 0px 12px 0px;
+}
+body .fourcards-container [data-block-name="fourcards"] h3 + p {
+  font-size: 16px;
+  color: rgb(76, 76, 80);
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.fourcards-container [data-block-name="fourcards"] .button-container {
+  align-self: flex-end;
+  margin-bottom: 0px;
+}
+.fourcards-container [data-block-name="fourcards"] .button-container a {
+  margin: 32px 0px 12px 0px;
+  background: none;
+  font-size: 16px;
+  color: rgb(35, 90, 228);
+  font-weight: 500;
+  padding: 0px;
+}
+.fourcards-container [data-block-name="fourcards"] .button-container a:hover {
+  text-decoration: underline;
+}
+.fourcards-container [data-block-name="fourcards"] .button-container a::after {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%230a41cf%22%20data-name%3D%22Outline%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20d%3D%22M6.36%2015.47L11.83%2010%206.36%204.53l1.06-1.06%206%206a.75.75%200%200%201%200%201.06l-6%206z%22%2F%3E%3C%2Fsvg%3E");
+  vertical-align: middle;
+    position: relative;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    bottom: .0625rem;
+}
+/* THIS IS FOUR CARD LAYOUT KINDLY DON'T DISTURB */
