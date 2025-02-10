@@ -1,5 +1,5 @@
-body > main > div:nth-child(0) {
-display:none;
+body > main > div:nth-child(1) {
+display:none !important;
 }
 body > main > div:nth-child(6) {
   padding: 80px 0px;
